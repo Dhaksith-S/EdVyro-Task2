@@ -31,7 +31,7 @@ All seven Month-to-Month customers churned; none of the eight customers with oth
 
 ## Source and access restrictions
 
-The [official curriculum](https://edvyro.in/internships/data-analytics) lists this as milestone 2. The [task guide](https://edvyro.in/datasets/task-kits/data-analytics-task-1) internally calls the first domain project TASK-1 and links `customer_churn_sample.csv`. The downloaded file has 15 synthetic records and 11 fields. No newer matching material was found in the workspace or accessible Downloads tree. An unauthenticated fetch of the dataset endpoint returned HTTP 403, so a byte-for-byte live comparison was unavailable.
+The [official curriculum](https://edvyro.in/internships/data-analytics) lists this as milestone 2. The [task guide](https://edvyro.in/datasets/task-kits/data-analytics-task-1) internally calls the first domain project TASK-1 and links `customer_churn_sample.csv`. The downloaded file has 15 synthetic records and 11 fields. No newer matching material was found in the workspace or accessible Downloads tree. On 22 October 2026 a live HTTPS download from the official dataset endpoint matched the supplied file's SHA-256 exactly. Accessibility does not establish redistribution rights.
 
 See [source provenance and SHA-256](src/provenance.json) and [authorized input instructions](data/raw/README.md). The generic source-library guide differs from the CSV in naming and contract categories. Actual headers and labels are preserved. INR and the 90-day ticket window are tentative guide mappings, not verified CSV metadata. There are no individual subscribed-service columns; tier is analyzed instead.
 

@@ -15,7 +15,7 @@ Status distinguishes executed local analysis from public delivery. A repository 
 | Inspect meaningful distributions and churn segments | PASS | [Figures](../figures/churn_by_contract.png) and [category summary](category_summary.csv) |
 | Execute reproducible notebook | PASS | [Notebook](../notebooks/customer_churn_eda.ipynb) and [verification](verification.md) |
 | Complete data-quality report | PASS | [Report](data_quality_report.md) |
-| Publish permissible review files in a public repository | PENDING VERIFICATION | Verify after GitHub push |
+| Publish permissible review files in a public repository | PASS | [Public repository](https://github.com/Dhaksith-S/EdVyro-Task2), anonymous file access and server-rendered README/notebook verified |
 | Deliver mandatory cleaned CSV by an authorized method | **PENDING** | No redistribution permission or approved private delivery method supplied |
 | Entire mandatory submission complete | **PENDING** | Cleaned-CSV delivery must be resolved before claiming full compliance |
 

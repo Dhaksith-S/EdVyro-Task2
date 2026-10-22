@@ -10,7 +10,7 @@
   "curriculum_url": "https://edvyro.in/internships/data-analytics",
   "source_guide_url": "https://edvyro.in/datasets/source-materials/task-source-library#analytics",
   "guide_pdf_page": 3,
-  "verification": "Official task links this exact filename. Supplied local file used without modification. Live dataset endpoint returned HTTP 403, so remote bytes could not be compared.",
+  "verification": "Official task links this exact filename. Supplied local file used without modification. An initial Python request returned HTTP 403; a subsequent curl HTTPS download on 2026-10-22 succeeded and its 1173 bytes had exactly the same SHA-256 as the supplied local file.",
   "search_scope": "Task 1 workspace and recursively accessible Downloads filenames; no newer matching churn, analytics, checklist, task2 or EdVyro source file found.",
   "numbering": "Curriculum milestone 2; task kit internally labels first domain project TASK-1.",
   "schema_conflict": "Generic guide uses snake_case and monthly/quarterly/annual contracts; actual CSV uses PascalCase and Month-to-Month/One Year/Two Year. Actual CSV retained.",

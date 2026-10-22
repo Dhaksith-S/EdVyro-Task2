@@ -44,7 +44,7 @@ from src.analysis import generate, segment_table, findings, recommendations, LIM
 raw = load_data()
 print("Input loaded; aggregate-only output policy active.")''')
     md('''## 3. Dataset overview
-The official curriculum calls this milestone 2, while its task kit is named `data-analytics-task-1`. The supplied brief links this customer churn CSV. No newer matching source was found in the workspace or accessible Downloads tree. The live endpoint returned HTTP 403, so remote byte identity could not be established. The exact local input checksum and source URLs are recorded below.''')
+The official curriculum calls this milestone 2, while its task kit is named `data-analytics-task-1`. The supplied brief links this customer churn CSV. No newer matching source was found in the workspace or accessible Downloads tree. On 22 October 2026 a live HTTPS download from the official dataset endpoint had exactly the same SHA-256 as the supplied file. Accessibility does not establish redistribution rights. The exact input checksum and source URLs are recorded below.''')
     code('''provenance = json.loads((ROOT / "src/provenance.json").read_text())
 display(pd.Series({"rows": len(raw), "columns": len(raw.columns),
                    "source_sha256": provenance["source_sha256"],

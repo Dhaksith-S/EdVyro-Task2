@@ -177,7 +177,7 @@ EdVyro Data Analytics Internship - Task 02. Analysis date: 22 October 2026.
 
 The supplied sample contains **{len(raw)} rows and {len(raw.columns)} columns**. It is the dataset linked by the official Data Quality and Exploratory Analysis brief. No newer matching file was found in the workspace or accessible Downloads tree. The official curriculum calls this milestone 2, while the downloadable brief is named `data-analytics-task-1`. This is a numbering difference, not a replacement dataset.
 
-The supplied file's SHA-256 is `{hashlib.sha256(DEFAULT_RAW.read_bytes()).hexdigest()}`. An unauthenticated fetch returned HTTP 403, so byte identity with the live endpoint could not be verified. Preserve the downloaded file as the source of truth. See [provenance](../src/provenance.json) and [input instructions](../data/raw/README.md).
+The supplied file's SHA-256 is `{hashlib.sha256(DEFAULT_RAW.read_bytes()).hexdigest()}`. A live HTTPS download from the official dataset endpoint on 22 October 2026 matched this checksum exactly. The supplied file is therefore byte-identical to the official dataset linked by this task on the verification date. Preserve the downloaded file as the source of truth. Public accessibility does not establish redistribution permission. See [provenance](../src/provenance.json) and [input instructions](../data/raw/README.md).
 
 ## Schema, definitions and types
 
