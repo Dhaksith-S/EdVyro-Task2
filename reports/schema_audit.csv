@@ -1,0 +1,12 @@
+column,dtype,missing,missing_pct,unique_nonmissing,definition
+CustomerID,str,0,0.000000,15,Synthetic record identifier; never a numeric measure.
+Gender,str,0,0.000000,2,Recorded gender label; sample labels are not an exhaustive real-world taxonomy.
+Age,int64,0,0.000000,15,Customer age in years (inferred from field name).
+TenureMonths,int64,0,0.000000,15,Completed months since signup (guide mapping).
+SubscriptionType,str,0,0.000000,3,Recorded subscription tier; individual subscribed services are unavailable.
+MonthlyCharges,float64,0,0.000000,3,"Fictional monthly amount; INR per guide mapping, not verified by CSV metadata."
+TotalCharges,float64,0,0.000000,15,Recorded cumulative amount; historical billing semantics are not supplied.
+ContractType,str,0,0.000000,3,Actual CSV contract label; retain Month-to-Month / One Year / Two Year.
+SupportTickets,int64,0,0.000000,7,"Support ticket count; previous 90 days per guide mapping, unverified in CSV."
+PaymentMethod,str,0,0.000000,4,Recorded payment method.
+Churn,str,0,0.000000,2,Yes means customer left; observation dates/window are not supplied.

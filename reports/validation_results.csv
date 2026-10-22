@@ -1,0 +1,20 @@
+check,violations,severity,status
+Nonempty dataset,0,error,PASS
+Missing required cells,0,error,PASS
+Blank strings,0,error,PASS
+Exact duplicate rows (excess),0,error,PASS
+Duplicate customer IDs (excess),0,error,PASS
+Identifier format,0,error,PASS
+Unparseable numeric cells,0,error,PASS
+Nonfinite numeric cells,0,error,PASS
+Negative numeric cells,0,error,PASS
+Noninteger count/age cells,0,error,PASS
+Age outside review interval 0-120,0,review,PASS
+Tenure exceeds age in months,0,review,PASS
+Gender: outside supplied sample vocabulary,0,error,PASS
+SubscriptionType: outside supplied sample vocabulary,0,error,PASS
+ContractType: outside supplied sample vocabulary,0,error,PASS
+PaymentMethod: outside supplied sample vocabulary,0,error,PASS
+Churn: outside supplied sample vocabulary,0,error,PASS
+Both churn classes present,0,review,PASS
+Total differs from current monthly amount x tenure (>0.01),0,review,PASS

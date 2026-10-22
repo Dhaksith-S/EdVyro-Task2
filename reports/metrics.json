@@ -1,0 +1,12 @@
+{
+  "customers": 15,
+  "churned": 7,
+  "churn_pct": 46.666666666666664,
+  "retained": 8,
+  "mean_tenure_churned": 7.0,
+  "mean_tenure_retained": 29.125,
+  "mean_monthly_churned": 58.56142857142857,
+  "mean_monthly_retained": 107.49000000000001,
+  "mean_tickets_churned": 4.285714285714286,
+  "mean_tickets_retained": 1.0
+}

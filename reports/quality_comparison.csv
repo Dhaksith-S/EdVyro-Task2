@@ -1,0 +1,8 @@
+metric,before,after
+rows,15,15
+columns,11,11
+missing_cells,0,0
+exact_duplicates_excess,0,0
+duplicate_IDs_excess,0,0
+validation_error_violations,0,0
+IQR_flags_across_columns,0,0

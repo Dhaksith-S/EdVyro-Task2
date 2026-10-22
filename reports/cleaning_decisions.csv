@@ -1,0 +1,15 @@
+issue,detection_method,action,justification,rows_affected,validation_result
+CustomerID: formatting,Compare trimmed identifier,Trim identifier whitespace; blank to missing,Preserve identifier case and do not guess unknown categories.,0,PASS
+Gender: formatting,Trim and case-insensitive comparison with supplied labels,Trim surrounding whitespace; canonicalize known labels; blank to missing,Preserve identifier case and do not guess unknown categories.,0,PASS
+SubscriptionType: formatting,Trim and case-insensitive comparison with supplied labels,Trim surrounding whitespace; canonicalize known labels; blank to missing,Preserve identifier case and do not guess unknown categories.,0,PASS
+ContractType: formatting,Trim and case-insensitive comparison with supplied labels,Trim surrounding whitespace; canonicalize known labels; blank to missing,Preserve identifier case and do not guess unknown categories.,0,PASS
+PaymentMethod: formatting,Trim and case-insensitive comparison with supplied labels,Trim surrounding whitespace; canonicalize known labels; blank to missing,Preserve identifier case and do not guess unknown categories.,0,PASS
+Churn: formatting,Trim and case-insensitive comparison with supplied labels,Trim surrounding whitespace; canonicalize known labels; blank to missing,Preserve identifier case and do not guess unknown categories.,0,PASS
+Age: numeric type,Parse numbers and check integer fields,Use explicit numeric dtype,Invalid numeric text fails instead of becoming an imputed value.,0,PASS
+TenureMonths: numeric type,Parse numbers and check integer fields,Use explicit numeric dtype,Invalid numeric text fails instead of becoming an imputed value.,0,PASS
+MonthlyCharges: numeric type,Parse numbers and check integer fields,Use explicit numeric dtype,Invalid numeric text fails instead of becoming an imputed value.,0,PASS
+TotalCharges: numeric type,Parse numbers and check integer fields,Use explicit numeric dtype,Invalid numeric text fails instead of becoming an imputed value.,0,PASS
+SupportTickets: numeric type,Parse numbers and check integer fields,Use explicit numeric dtype,Invalid numeric text fails instead of becoming an imputed value.,0,PASS
+Exact duplicate records,All-column equality after canonicalization,Keep first exact record,Only exact copies are removable; conflicting customer IDs fail validation.,0,PASS
+Missing or invalid required values,Required-field and domain checks,No imputation; fail if unresolved,No defensible replacement is supplied; never infer a missing target.,0,PASS
+IQR extremes and billing review,1.5 x IQR; age/tenure and billing consistency diagnostics,Retain records; flag review checks without rewriting values,Statistical extremes and billing deviations alone do not prove errors.,0,PASS
